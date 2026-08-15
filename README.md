@@ -1,13 +1,14 @@
 # EcoTarot
 
-Aplicación web que integra numerología, astrología y tarot en una sola experiencia personal.
+Experiencia web premium que integra tarot, astrología y numerología en una guía personal diaria, semanal y mensual.
 
-## Flujo de versiones
+## Funciones actuales
 
-- `main`: versión estable / producción.
-- `develop`: siguiente versión en pruebas.
-- `feature/*`: mejoras específicas.
-- `version/v2`, `version/v3`, etc.: iteraciones mayores.
+- Perfil personal persistente en el dispositivo.
+- Signo solar y camino de vida calculados desde la fecha de nacimiento.
+- Carta guía diaria estable y tirada interactiva.
+- Lecturas de hoy, semana y mes.
+- Diseño responsive y accesible para móvil y escritorio.
 
 ## Desarrollo
 
@@ -16,16 +17,11 @@ npm install
 npm run dev
 ```
 
-## Build
+## Producción
 
 ```bash
 npm run build
+npm start
 ```
 
-## Vercel
-
-Conectar este repositorio a un proyecto Vercel llamado `ecotarot`. Usar `main` como Production Branch. Las ramas `develop`, `feature/*` y `version/*` deben generar Preview Deployments.
-
-## Estado actual
-
-MVP frontend funcional con login local, onboarding, perfil, numerología básica, tarot diario persistente por fecha, predicción diaria, semana, mes, consultas de tarot e historial local. Próximas etapas: autenticación y base de datos reales, cálculo astronómico real, OpenAI para interpretación integrada y perfiles múltiples.
+Next.js App Router, optimizado para Vercel.
